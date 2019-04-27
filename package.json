@@ -1,6 +1,6 @@
 {
   "name": "get-some",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "GET SOME!",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/micburks/get-some.git"
   },
-  "keywords": ["get", "some"],
+  "keywords": [
+    "get",
+    "some"
+  ],
   "author": "Mickey Burks <brks.mck@gmail.com>",
   "license": "MIT",
   "bugs": {
