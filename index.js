@@ -6,6 +6,8 @@ module.exports = function getSome(factory) {
         return () => ({
           next: () => ({ value: factory(count++), done: false }),
         });
+      } else {
+        throw new Error('The return value of `getSome` must be destructured as an array');
       }
     }
   });
